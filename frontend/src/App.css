@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  position: relative;
+  overflow-y: scroll;
+  height: 100%;
+  background: #fafcfc;
+  color: #000;
+}
+
+body {
+  position: relative;
+}
+
+html, body { height:100%; }
+
+html, body, input, textarea, button {
+  font-family: $primary-font;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+a {
+  color: #cb1423;
+}
+
+a:hover { color: #5dcb31; }
+
+.App {
+  background: #ccc;
+  min-width: 100vw;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.controls-wrapper {
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.response-wrapper {
+  padding: 20px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.section-wrapper {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+pre {
+  white-space: break-spaces;
+}
+
+button {
+  margin: 0 5px;
+}
+
+input[type="text"], input[type="number"], select {
+  margin: 5px;
+  display: inline-block;
+}
+
+input[name="id"] {
+  width: 80px;
+}
+
+.rti--container {
+  margin: 5px;
+}
